@@ -1,0 +1,14 @@
+<launch>
+    <node name="pingpong_py_12" pkg="test_pkg" type="test.py" output="screen">
+        <param name="sub_id" value="1" />
+        <param name="pub_id" value="2" />
+    </node>
+    <node name="pingpong_py_23" pkg="test_pkg" type="test.py" output="screen">
+        <param name="sub_id" value="2" />
+        <param name="pub_id" value="3" />
+    </node>
+    <node name="pingpong_py_34" pkg="test_pkg" type="test.py" output="screen">
+        <param name="sub_id" value="3" />
+        <param name="pub_id" value="4" />
+    </node>
+</launch>
